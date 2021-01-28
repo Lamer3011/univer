@@ -32,9 +32,5 @@
 
             </StackPanel>
         </Border>
-
-        <TextBlock Text="George Orwell's major works are 1984, a frightening portrayal of a totalitarian future state, and Animal Farm, an allegory for the Russian revolution and its aftermath." 
-               FontStyle="Italic" HorizontalAlignment="Center" TextWrapping="WrapWithOverflow" TextTrimming="WordEllipsis" />
-
     </StackPanel>
 </Window>
