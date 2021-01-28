@@ -1,0 +1,21 @@
+﻿<Window x:Class="Example2.info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example2"
+        mc:Ignorable="d"
+        Title="info" Height="300" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="269" Width="292" TextAlignment="Center" FontFamily="Comic Sans MS" FontSize="16"><Run FontWeight="Bold" Text="Глеб Рудольфович Самойлов ">
+                <Run.Background>
+                    <ImageBrush/>
+                </Run.Background>
+            </Run><LineBreak/><Run Text="— советский и российский музыкант, поэт, композитор, лидер рок-группы The Matrixx, в прошлом — один из фронтменов группы «Агата Кристи»"/><InlineUIContainer>
+                <Image x:Name="image" Height="158" Width="205" Source="img/gleb2.jpg"/>
+            </InlineUIContainer></TextBlock>
+    </Grid>
+</Window>
